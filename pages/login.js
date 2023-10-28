@@ -20,7 +20,7 @@ const LoginPage = () => {
         router.push('/')
       }
     }
-, []);
+);
 
   return (
     <div>

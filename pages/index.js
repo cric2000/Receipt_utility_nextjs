@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import 'app/globals.css'
 import { useEffect } from "react";
 
-export default function Home() {
+export default function Main() {
   const router = useRouter();
 
 
@@ -18,7 +18,7 @@ export default function Home() {
     else{
       router.push('/signup')
     }
-  }, []);
+  });
 
 
   return (
