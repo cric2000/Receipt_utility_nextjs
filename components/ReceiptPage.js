@@ -23,7 +23,7 @@ export default function ReceiptPage({receipt, receiptId}){
     </p>
   </div>
   <div className="mb-2 w-1/2">
-    <h3 className="text-lg font-semibold">Tenant ID</h3>
+    <h3 className="text-lg font-semibold">Room Name</h3>
     <p className="truncate-text" title={receipt.tenantId}>
       {receipt.tenantId && receipt.tenantId.length > 50 ? receipt.tenantId.slice(0, 50) + '...' : receipt.tenantId}
     </p>

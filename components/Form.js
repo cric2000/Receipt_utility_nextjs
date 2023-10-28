@@ -39,7 +39,7 @@ export default function Form({
         error={errors.address}
         type="text"
         setErrors={setErrors}
-        placeholder="eg : Mohali sector 115, Punjab"
+        placeholder="eg : sec 22 chandigarh"
       />
       <InputField
         label="Room name"
