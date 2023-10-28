@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+ background-color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.new-shadow{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; /* Adjust this as needed */
+
+  /* The following styles will display the full content on hover */
+  cursor: pointer;
+  position: relative;
+}
+
+.truncate-text:hover::before {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: normal;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
