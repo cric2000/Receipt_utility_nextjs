@@ -22,10 +22,10 @@ export default function Main() {
 
 
   return (
-    <div className="bg-gray-200 min-h-screen flex flex-col text-white">
+    <div>
       <Navbar/>
-      <div className="flex-grow flex flex-col items-center justify-center">
-        <p className="text-gray-700 text-3xl text-md font-semibold text-center mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <div className="flex flex-col items-center justify-center h-full flex-grow mt-20 overflow-hidden">
+        <p className="text-gray-700 text-2xl text-md font-semibold text-center mb-4 mt-20" style={{ fontFamily: "'Poppins', sans-serif" }}>
         Streamline Your Experience with Instant Receipts
         </p>
        <ReceiptForm/>

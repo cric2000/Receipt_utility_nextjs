@@ -24,7 +24,7 @@ export default function Navbar() {
 
 
   return (
-    <header className="bg-gray-800 flex items-center justify-between py-4 px-4 fixed top-0 left-0 w-full">
+    <header className="bg-gray-800 flex items-center justify-between py-4 px-4 fixed top-0 left-0 w-full z-10" style={{height:'8vh'}}>
       <div className="flex items-center justify-between w-full">
       <div className='flex items-center'>
           <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#D4F1F4" viewBox="0 0 18 20">

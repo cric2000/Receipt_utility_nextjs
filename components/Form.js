@@ -19,8 +19,8 @@ export default function Form({
 }) 
 {
   return (
-    <div>
-   <form className="mx-auto my-4 p-10 bg-white rounded-lg shadow-md new-shadow" style={{ maxWidth: '800px', width: '100vw' }}>
+    <div className="h-screen">
+   <form className="mx-10 my-4 p-10 bg-white rounded-lg shadow-md new-shadow" style={{ maxWidth: '800px', width: '100vw' }}>
       <InputField
         label="Tenant Name"
         id="tenantName"

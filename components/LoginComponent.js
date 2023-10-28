@@ -32,8 +32,8 @@ const LoginComponent = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mt-60">
-      <div className="bg-white p-6 rounded-lg max-w-md w-full">
+    <div className="flex justify-center items-center h-screen ml-5 mr-5">
+      <div className="bg-white rounded-lg w-screen">
       <div className='flex w-full'>
       <svg class="h-8 w-8 text-blue-600"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />  <polyline points="10 17 15 12 10 7" />  <line x1="15" y1="12" x2="3" y2="12" /></svg>
         <h2 className="text-2xl font-bold mb-4 text-gray-700 ml-2">Log in</h2>
